@@ -1,27 +1,3 @@
-HTTP/2 200 
-cache-control: max-age=300
-content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-content-type: text/plain; charset=utf-8
-etag: "4590bbb599b8430cd4cf0f20ed5d8a1a4567d3355549a73d510b26ca27baf839"
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-x-frame-options: deny
-x-xss-protection: 1; mode=block
-x-github-request-id: 2572:7E64:DCD708:E62AE2:606F41BC
-accept-ranges: bytes
-date: Thu, 08 Apr 2021 17:47:40 GMT
-via: 1.1 varnish
-x-served-by: cache-ams21059-AMS
-x-cache: MISS
-x-cache-hits: 0
-x-timer: S1617904060.111125,VS0,VE177
-vary: Authorization,Accept-Encoding
-access-control-allow-origin: *
-x-fastly-request-id: 3e39b49b7844ffbc50b19c834fea400a517a9459
-expires: Thu, 08 Apr 2021 17:52:40 GMT
-source-age: 0
-content-length: 168
-
 # Set to true to add assignees to pull requests
 addAssignees: true
 

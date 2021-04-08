@@ -1,27 +1,3 @@
-HTTP/2 200 
-cache-control: max-age=300
-content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
-content-type: text/plain; charset=utf-8
-etag: "f61a9a31c49590dbb84b7cdc36e7e30d2fc315716ab86c3fabaea5e36afa3be9"
-strict-transport-security: max-age=31536000
-x-content-type-options: nosniff
-x-frame-options: deny
-x-xss-protection: 1; mode=block
-x-github-request-id: 8F7C:CF1C:237266:247FFD:606F41D7
-accept-ranges: bytes
-date: Thu, 08 Apr 2021 17:48:07 GMT
-via: 1.1 varnish
-x-served-by: cache-ams21051-AMS
-x-cache: MISS
-x-cache-hits: 0
-x-timer: S1617904087.167383,VS0,VE222
-vary: Authorization,Accept-Encoding
-access-control-allow-origin: *
-x-fastly-request-id: 6aa9504e87a912cdf7790de291ce25355bfb26e0
-expires: Thu, 08 Apr 2021 17:53:07 GMT
-source-age: 0
-content-length: 864
-
 kubernetes-intro:
   - kubernetes-intro/*
 
