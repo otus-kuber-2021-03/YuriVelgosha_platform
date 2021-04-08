@@ -1,0 +1,35 @@
+HTTP/2 200 
+cache-control: max-age=300
+content-security-policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+content-type: text/plain; charset=utf-8
+etag: "bbf40e757a81b5fd109fb4c51947c795530ebba574a66dad889c8677a69ec4f7"
+strict-transport-security: max-age=31536000
+x-content-type-options: nosniff
+x-frame-options: deny
+x-xss-protection: 1; mode=block
+x-github-request-id: 7742:43E4:D96660:E2AFE1:606F415E
+accept-ranges: bytes
+date: Thu, 08 Apr 2021 17:46:06 GMT
+via: 1.1 varnish
+x-served-by: cache-ams21080-AMS
+x-cache: MISS
+x-cache-hits: 0
+x-timer: S1617903966.256497,VS0,VE209
+vary: Authorization,Accept-Encoding
+access-control-allow-origin: *
+x-fastly-request-id: 5bb478fc00d6087c3c512f275c12c8b64665e26c
+expires: Thu, 08 Apr 2021 17:51:06 GMT
+source-age: 0
+content-length: 204
+
+name: "Pull Request Labeler"
+
+on: pull_request_target
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/labeler@main
+      with:
+        repo-token: "${{ secrets.GITHUB_TOKEN }}"
